@@ -1,3 +1,5 @@
+## 1) Revision de Snippet
+
 Luego de revisar el siguiente snippet, podemos resaltar las siguientes obesrvaciones y sugerencias.
 
 1. Es una variable private y deberia por convención debería escribirse (_logToDatabase)
@@ -15,6 +17,9 @@ Luego de revisar el siguiente snippet, podemos resaltar las siguientes obesrvaci
 10. El método DateTime.Now.ToShortDateString() contiene caracteres no admitidos para archivos, por lo que emplearlo en el método .File.Exists() conllevará a que nunca se encuentre dicho path.
 11. Usar Interpolación para concatenar strings
 12. Usar la directiva "using" en lugar de todo el namespace completo.
+
+## 2) Reescribir el código
+Siguiendo con el punto 2. del ejercicio, reescribí el codigo, definí una estructura así como las pruebas unitarias para llevar acabo la tarea.
 
 ```
 using System;
